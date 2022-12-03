@@ -1,4 +1,4 @@
-/* Fuentes */ 
+
 @font-face {
     font-family:'Inconsolata';
     src: url('Inconsolataregular.ttf') format('truetype');
@@ -12,7 +12,7 @@
     font-weight: normal;
 }
 
-/* Contenedor general */
+
 .grid-container {
     
     background-image: url(/Fotos/WipeOut04_22_2022_030420.735000.jpg);
@@ -30,7 +30,7 @@
     
 }
 
-/* Barra de navegación */
+
 .navigation {
     grid-column: 1/5;
     background-color: #7267CB;
@@ -42,7 +42,7 @@
     font-size: 1.875rem;
 }
 
-/* Diseño de las cajas-secciones */ 
+
 .bloque {
     
     /* border: 1px black solid;  */
@@ -52,7 +52,7 @@
     grid-column: 1/5; 
 }
 
-/* Prueba animación de títulos */ 
+ 
 h1 {
     background-color: #98bae700;
     font-family: 'Inconsolata';
@@ -69,7 +69,7 @@ h1:hover {
     color: white;
   }
 
-/* Diseño del subtítulo en la portada */
+
 #subtitulo {
     font-family:'Inconsolata';
     font-size: 5.625rem;
@@ -89,14 +89,14 @@ h1:hover {
 }
 
 
-/* Diseño de los textos de la página web*/
+
 #texto {
     font-family: 'tajawalregular' ; 
     font-size: 1.5625rem; 
     color:white;
 }
 
-/* Imagenes del equipo*/
+
 .photo-container{
     display: flex;
     flex-direction: row;
@@ -125,9 +125,9 @@ h1:hover {
     transform: scale(1.2);
 }
 
-/* Fin de imagenes del equipo*/
 
-/* Sección de footer */
+
+
 .footer1 {
     grid-column: 1/2; 
     background-color: #00000000;
@@ -167,7 +167,7 @@ h1:hover {
 }
 
 
-/* Media query para hacer que sea responsive */ 
+/* Media query */ 
 @media all and (max-width: 37.5rem) {
     .footer1 , .footer2 , .footer3 , .footer4 {
         grid-column: 1 / 5; 
